@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Debojit | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Mono:wght@400;700&family=Syne:wght@400;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar">
+    <div class="logo">DEV<span>OJIT</span></div>
+    <div class="nav-right">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <span class="icon sun">☀️</span>
+        <span class="icon moon">🌙</span>
+      </button>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home" class="nav-link">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- MARQUEE BANNER -->
+  <div class="marquee-wrapper">
+    <div class="marquee-track">
+      <span>Content Creator</span>
+      <span class="dot">✦</span>
+      <span>Web Developer</span>
+      <span class="dot">✦</span>
+      <span>Content Writer</span>
+      <span class="dot">✦</span>
+      <span>AI Enthusiast</span>
+      <span class="dot">✦</span>
+      <span>Photo Editor</span>
+      <span class="dot">✦</span>
+      <span>HTML · CSS · JS</span>
+      <span class="dot">✦</span>
+      <span>Content Creator</span>
+      <span class="dot">✦</span>
+      <span>Web Developer</span>
+      <span class="dot">✦</span>
+      <span>Content Writer</span>
+      <span class="dot">✦</span>
+      <span>AI Enthusiast</span>
+      <span class="dot">✦</span>
+      <span>Photo Editor</span>
+      <span class="dot">✦</span>
+      <span>HTML · CSS · JS</span>
+      <span class="dot">✦</span>
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-content">
+      <p class="hero-tag">👋 Hello World!</p>
+      <h1 class="hero-title">
+        <span class="line">I'M</span>
+        <span class="line accent">DEBOJIT</span>
+      </h1>
+      <p class="hero-sub">Content Creator · Writer · Aspiring Web Dev · From <strong>Cooch Behar</strong></p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Let's Talk</a>
+      </div>
+    </div>
+    <div class="hero-badge">
+      <div class="badge-ring">
+        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+          <path id="circlePath" d="M 100,100 m -75,0 a 75,75 0 1,1 150,0 a 75,75 0 1,1 -150,0" fill="none"/>
+          <text>
+            <textPath href="#circlePath" startOffset="0%">
+              ✦ B.A HONS · SURYA MAHAVIDYALAYA · COOCH BEHAR · 
+            </textPath>
+          </text>
+        </svg>
+        <div class="badge-center">DJ</div>
+      </div>
+    </div>
+    <div class="scroll-hint">scroll ↓</div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about section" id="about">
+    <div class="section-label">01 / ABOUT</div>
+    <div class="about-grid">
+      <div class="about-text">
+        <h2 class="section-title">Who Am <span class="accent">I?</span></h2>
+        <p>I'm <strong>Debojit</strong>, a passionate creative from <strong>Cooch Behar, West Bengal</strong>. Currently pursuing my <strong>B.A. Honours</strong> from <strong>Surya Mahavidyalaya</strong>, I'm building my skills in web development and digital content creation.</p>
+        <p>My goal? To blend creativity with technology — crafting content, building websites, and exploring AI to solve real problems and tell great stories.</p>
+        <div class="about-stats">
+          <div class="stat"><span class="stat-num">B.A</span><span class="stat-label">Honours Student</span></div>
+          <div class="stat"><span class="stat-num">5+</span><span class="stat-label">Tech Skills</span></div>
+          <div class="stat"><span class="stat-num">∞</span><span class="stat-label">Curiosity</span></div>
+        </div>
+      </div>
+      <div class="about-visual">
+        <div class="card-stack">
+          <div class="card-item card-back"></div>
+          <div class="card-item card-front">
+            <div class="card-icon">🎓</div>
+            <div class="card-info">
+              <strong>Surya Mahavidyalaya</strong>
+              <span>B.A. Honours · Cooch Behar</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills section" id="skills">
+    <div class="section-label">02 / SKILLS</div>
+    <h2 class="section-title">What I <span class="accent">Do</span></h2>
+
+    <!-- Skills marquee -->
+    <div class="marquee-wrapper marquee-sm">
+      <div class="marquee-track marquee-reverse">
+        <span>HTML5</span><span class="dot">★</span>
+        <span>CSS3</span><span class="dot">★</span>
+        <span>JavaScript</span><span class="dot">★</span>
+        <span>Excel</span><span class="dot">★</span>
+        <span>Canva</span><span class="dot">★</span>
+        <span>AI Tools</span><span class="dot">★</span>
+        <span>Photo Editing</span><span class="dot">★</span>
+        <span>Content Writing</span><span class="dot">★</span>
+        <span>HTML5</span><span class="dot">★</span>
+        <span>CSS3</span><span class="dot">★</span>
+        <span>JavaScript</span><span class="dot">★</span>
+        <span>Excel</span><span class="dot">★</span>
+        <span>Canva</span><span class="dot">★</span>
+        <span>AI Tools</span><span class="dot">★</span>
+        <span>Photo Editing</span><span class="dot">★</span>
+        <span>Content Writing</span><span class="dot">★</span>
+      </div>
+    </div>
+
+    <div class="skills-grid">
+      <div class="skill-card" data-level="80">
+        <div class="skill-icon">🌐</div>
+        <div class="skill-name">HTML5</div>
+        <div class="skill-bar"><div class="skill-fill" data-w="80"></div></div>
+        <div class="skill-percent">80%</div>
+      </div>
+      <div class="skill-card" data-level="75">
+        <div class="skill-icon">🎨</div>
+        <div class="skill-name">CSS3</div>
+        <div class="skill-bar"><div class="skill-fill" data-w="75"></div></div>
+        <div class="skill-percent">75%</div>
+      </div>
+      <div class="skill-card" data-level="60">
+        <div class="skill-icon">⚡</div>
+        <div class="skill-name">JavaScript</div>
+        <div class="skill-bar"><div class="skill-fill" data-w="60"></div></div>
+        <div class="skill-percent">60%</div>
+      </div>
+      <div class="skill-card" data-level="85">
+        <div class="skill-icon">✍️</div>
+        <div class="skill-name">Content Writing</div>
+        <div class="skill-bar"><div class="skill-fill" data-w="85"></div></div>
+        <div class="skill-percent">85%</div>
+      </div>
+      <div class="skill-card" data-level="90">
+        <div class="skill-icon">📱</div>
+        <div class="skill-name">Canva</div>
+        <div class="skill-bar"><div class="skill-fill" data-w="90"></div></div>
+        <div class="skill-percent">90%</div>
+      </div>
+      <div class="skill-card" data-level="70">
+        <div class="skill-icon">📊</div>
+        <div class="skill-name">Excel</div>
+        <div class="skill-bar"><div class="skill-fill" data-w="70"></div></div>
+        <div class="skill-percent">70%</div>
+      </div>
+      <div class="skill-card" data-level="80">
+        <div class="skill-icon">🤖</div>
+        <div class="skill-name">AI Tools</div>
+        <div class="skill-bar"><div class="skill-fill" data-w="80"></div></div>
+        <div class="skill-percent">80%</div>
+      </div>
+      <div class="skill-card" data-level="75">
+        <div class="skill-icon">🖼️</div>
+        <div class="skill-name">Photo Editing</div>
+        <div class="skill-bar"><div class="skill-fill" data-w="75"></div></div>
+        <div class="skill-percent">75%</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects section" id="projects">
+    <div class="section-label">03 / PROJECTS</div>
+    <h2 class="section-title">My <span class="accent">Work</span></h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <div class="project-tag">Web Dev</div>
+        <div class="project-emoji">🌐</div>
+        <h3>Portfolio Website</h3>
+        <p>Personal portfolio built with HTML, CSS & JS — deployed on Vercel as a college project.</p>
+        <div class="project-stack">
+          <span>HTML</span><span>CSS</span><span>JS</span>
+        </div>
+        <a href="#" class="project-link">View →</a>
+      </div>
+      <div class="project-card">
+        <div class="project-tag">Content</div>
+        <div class="project-emoji">✍️</div>
+        <h3>Content Creation</h3>
+        <p>Created engaging written & visual content for social platforms using Canva and AI tools.</p>
+        <div class="project-stack">
+          <span>Canva</span><span>AI</span><span>Writing</span>
+        </div>
+        <a href="#" class="project-link">View →</a>
+      </div>
+      <div class="project-card">
+        <div class="project-tag">Design</div>
+        <div class="project-emoji">🖼️</div>
+        <h3>Photo Editing Projects</h3>
+        <p>Photo retouching and creative editing using AI tools and Canva for digital media.</p>
+        <div class="project-stack">
+          <span>Canva</span><span>AI Tools</span>
+        </div>
+        <a href="#" class="project-link">View →</a>
+      </div>
+      <div class="project-card highlight-card">
+        <div class="project-tag">Coming Soon</div>
+        <div class="project-emoji">🚀</div>
+        <h3>Next Big Project</h3>
+        <p>Currently learning and building something exciting. Stay tuned!</p>
+        <div class="project-stack">
+          <span>?</span><span>?</span><span>?</span>
+        </div>
+        <a href="#contact" class="project-link">Collaborate →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact section" id="contact">
+    <div class="section-label">04 / CONTACT</div>
+    <h2 class="section-title">Let's <span class="accent">Connect</span></h2>
+    <p class="contact-sub">Open to collaborations, projects, and cool conversations.</p>
+    <div class="contact-box">
+      <div class="contact-info">
+        <div class="info-item">
+          <span class="info-icon">📍</span>
+          <span>Cooch Behar, West Bengal, India</span>
+        </div>
+        <div class="info-item">
+          <span class="info-icon">🎓</span>
+          <span>Surya Mahavidyalaya</span>
+        </div>
+        <div class="info-item">
+          <span class="info-icon">💼</span>
+          <span>Open for Freelance & Projects</span>
+        </div>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message..." rows="4" required></textarea>
+        <button type="submit" class="btn btn-primary">Send Message 🚀</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER MARQUEE -->
+  <div class="marquee-wrapper marquee-footer">
+    <div class="marquee-track">
+      <span>DEBOJIT</span><span class="dot">✦</span>
+      <span>COOCH BEHAR</span><span class="dot">✦</span>
+      <span>SURYA MAHAVIDYALAYA</span><span class="dot">✦</span>
+      <span>CONTENT CREATOR</span><span class="dot">✦</span>
+      <span>WEB DEVELOPER</span><span class="dot">✦</span>
+      <span>DEBOJIT</span><span class="dot">✦</span>
+      <span>COOCH BEHAR</span><span class="dot">✦</span>
+      <span>SURYA MAHAVIDYALAYA</span><span class="dot">✦</span>
+      <span>CONTENT CREATOR</span><span class="dot">✦</span>
+      <span>WEB DEVELOPER</span><span class="dot">✦</span>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>Crafted with ❤️ by <strong>Debojit</strong> · Cooch Behar · 2025</p>
+    <p class="footer-sub">B.A. Honours · Surya Mahavidyalaya</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
